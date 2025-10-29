@@ -99,7 +99,6 @@ def delete_task(task_id):
     db.session.commit()
     return jsonify({"message": "Task deleted successfully!"})
 
-.
 
 if __name__ == "__main__":
     import os
